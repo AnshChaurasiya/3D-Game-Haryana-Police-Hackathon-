@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dnuxr1qvnb5sx"
+path="res://.godot/imported/19755_Square_with_4_triangles_on_the_side_V1.obj-ca6869060187dedf4da329e12d268311.mesh"
+
+[deps]
+
+files=["res://.godot/imported/19755_Square_with_4_triangles_on_the_side_V1.obj-ca6869060187dedf4da329e12d268311.mesh"]
+
+source_file="res://19755_Square_with_4_triangles_on_the_side_V1.obj"
+dest_files=["res://.godot/imported/19755_Square_with_4_triangles_on_the_side_V1.obj-ca6869060187dedf4da329e12d268311.mesh", "res://.godot/imported/19755_Square_with_4_triangles_on_the_side_V1.obj-ca6869060187dedf4da329e12d268311.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://llctyf5ppd1j"]
+
+[ext_resource type="Script" path="res://Area3D.gd" id="1_dfrn1"]
+[ext_resource type="ArrayMesh" uid="uid://cj5s4cp48ipm2" path="res://19275_Diamond_Kite_v1.obj" id="1_uj6nk"]
+[ext_resource type="Script" path="res://Popup.gd" id="3_nfyq2"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_qqwxl"]
+
+[node name="Opt" type="Node3D"]
+
+[node name="Area3D" type="Area3D" parent="."]
+script = ExtResource("1_dfrn1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+shape = SubResource("CapsuleShape3D_qqwxl")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 0.0269098, 0.999638, 0, -0.999638, 0.0269098, 0, 5.11652, 0.252838)
+mesh = ExtResource("1_uj6nk")
+
+[node name="Popup" type="Popup" parent="Area3D"]
+script = ExtResource("3_nfyq2")
+
+[node name="ButtonOption1" type="Button" parent="Area3D/Popup"]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "1"
+
+[node name="ButtonOption2" type="Button" parent="Area3D/Popup"]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "2"
